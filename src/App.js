@@ -52,33 +52,35 @@ const App = () => {
                         </div>
                     }
 
-                    {
-                        /* Add ExpenseList component here */
+                   {
+                        /* Add ExpenseItem component here */
+                        // <div className='col-sm'>
+                        //     <ExpenseItem />
+                        // </div>
+                    }
 
-                        /* Add ExpenseTotal component here */
+
+
+                </div>
+                <div className='row mt-12'>
+                {
+                    
+                        /* Add ExpenseList component here */
                         <div className='col-sm'>
+                            <h2>Allocation</h2>
                             <ExpenseList />
                         </div>
                     }
+                </div>
 
-                    {
-                        /* Add ExpenseItem component here */
-
-                        /* Add ExpenseTotal component here */
-                        <div className='col-sm'>
-                            <ExpenseItem />
-                        </div>
-                    }
-
-                    {
+                <div className='row mt-12'>
+                {
                         /* Add AllocationForm component here under */
-
-                        /* Add ExpenseTotal component here */
                         <div className='col-sm'>
+                            <h2>Change Allocation</h2>
                             <AllocationForm />
                         </div>
                     }
-
                 </div>
             </div>
         </AppProvider>
